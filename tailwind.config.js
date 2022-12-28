@@ -8,6 +8,9 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    container: {
+      padding: '4rem',
+    },
   },
   plugins: [],
 }

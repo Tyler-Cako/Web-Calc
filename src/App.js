@@ -8,14 +8,16 @@ import Graphing from './views/Graphing';
 function App() {
   return (
   <div className="bg-amber-50 h-screen">
-    <Navbar />
+    <Navbar/>
+    <div className="container">
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/calculus" element={<Calculus />} />
       <Route path="/algebra" element={<Algebra />} />
       <Route path="/graphing" element={<Graphing />} />
     </Routes>
-   </div>
+    </div>
+  </div>
   );
 }
 
